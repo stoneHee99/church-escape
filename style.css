@@ -1,0 +1,69 @@
+@import url(style/reset.css);
+
+.quiz1 {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: darkslategray;
+  flex-direction: column;
+}
+
+.quiz1__title {
+  color: white;
+  font-size: 76px;
+  font-weight: 900;
+  margin-bottom: 100px;
+}
+
+.quiz1__content {
+  color: white;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.quiz1__password {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.quiz1__password input {
+  background-color: transparent;
+  font-size: 50px;
+  border-style: solid;
+  border-width: 0px 0px 10px 0px;
+  border-color: white;
+  color: white;
+  width: 30px;
+  margin: 0px 10px;
+}
+
+.quiz1__submit {
+  border-width: 0px;
+  background-color: white;
+  color: darkslategray;
+  font-size: 30px;
+  font-weight: 900;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.quiz2 {
+  display: none;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: darkslategray;
+  flex-direction: column;
+}
+
+.quiz3 {
+  display: none;
+}
+
+.quiz4 {
+  display: none;
+}
