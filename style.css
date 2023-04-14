@@ -60,8 +60,188 @@
   flex-direction: column;
 }
 
+.quiz2__title {
+  color: white;
+  font-size: 76px;
+  font-weight: 900;
+  margin-bottom: 100px;
+}
+
+.quiz2__content {
+  color: white;
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+.quiz2__password {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  font-size: 50px;
+  font-weight: 600;
+  color: white;
+}
+
+.quiz2__password input {
+  background-color: transparent;
+  font-size: 50px;
+  border-style: solid;
+  border-width: 0px 0px 5px 0px;
+  border-color: white;
+  color: white;
+  width: 30px;
+  margin-left: 20px;
+}
+
+.quiz2__password__hint--red {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: red;
+  display: inline-block;
+}
+
+.quiz2__password__hint--green {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: green;
+  display: inline-block;
+}
+
+.quiz2__password__hint--blue {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: blue;
+  display: inline-block;
+}
+
+.quiz2__submit {
+  border-width: 0px;
+  background-color: white;
+  color: darkslategray;
+  font-size: 30px;
+  font-weight: 900;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
 .quiz3 {
   display: none;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: darkslategray;
+  flex-direction: column;
+}
+
+.quiz3__title {
+  color: white;
+  font-size: 76px;
+  font-weight: 900;
+  margin-bottom: 100px;
+}
+
+.quiz3__content {
+  color: white;
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.quiz3__hint {
+  color: white;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+#tiles {
+  width: 320px;
+  margin: 0 auto;
+  position: relative;
+  background-color: gray;
+  padding: 8px;
+  border-radius: 0.5rem;
+}
+
+.selected {
+  background-color: #FFF;
+  border: none;
+  color: white;
+
+}
+
+.btn {
+  font-size: 24px;
+  height: 80px;
+  width: 80px;
+  cursor: pointer;
+  background-size: cover;
+}
+
+button[back="1"] {
+  background-image:url("img/1.png");
+}
+
+button[back="2"] {
+  background-image:url("img/2.gif");
+}
+
+button[back="3"] {
+  background-image:url("img/3.gif");
+}
+
+button[back="4"] {
+  background-image:url("img/4.gif");
+}
+
+button[back="5"] {
+  background-image:url("img/5.gif");
+}
+
+button[back="6"] {
+  background-image:url("img/6.gif");
+}
+
+button[back="7"] {
+  background-image:url("img/7.gif");
+}
+
+button[back="8"] {
+  background-image:url("img/8.gif");
+}
+
+button[back="9"] {
+  background-image:url("img/9.gif");
+}
+
+button[back="10"] {
+  background-image:url("img/10.gif");
+}
+
+button[back="11"] {
+  background-image:url("img/11.gif");
+}
+
+button[back="12"] {
+  background-image:url("img/12.gif");
+}
+
+button[back="13"] {
+  background-image:url("img/13.gif");
+}
+
+button[back="14"] {
+  background-image:url("img/14.gif");
+}
+
+button[back="15"] {
+  background-image:url("img/15.gif");
 }
 
 .quiz4 {
