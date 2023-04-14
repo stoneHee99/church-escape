@@ -174,7 +174,11 @@ function swap(clicked) {
 
   if (shuffled) {
   if (checkHasWon()) {
-          alert("Winner!")
+    const quiz3 = document.querySelector(".quiz3");
+    const quiz4 = document.querySelector(".quiz4");
+
+    quiz3.style.display = "none";
+    quiz4.style.display = "flex";
       }
   }
 }
