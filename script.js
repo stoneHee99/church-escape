@@ -210,7 +210,11 @@ newTile.classList.add("selected");
   highlighted = index;
 }
 
-const video = document.getElementById('video');
+        const video = document.getElementById('video');
+        const captureButton = document.getElementById('captureButton');
+        const canvas = document.getElementById('canvas');
+        const ctx = canvas.getContext('2d');
+        const downloadLink = document.getElementById('downloadLink');
 
         if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
             navigator.mediaDevices.getUserMedia({ video: true })
@@ -223,3 +227,17 @@ const video = document.getElementById('video');
         } else {
             console.error('getUserMedia not supported in this browser.');
         }
+
+        captureButton.addEventListener('click', function () {
+            // Introduce a 3-second delay before capturing the frame
+            setTimeout(() => {
+                canvas.width = video.videoWidth;
+                canvas.height = video.videoHeight;
+                ctx.drawImage(video, 0, 0, video.videoWidth, video.videoHeight);
+
+                const dataURL = canvas.toDataURL('image/png');
+                downloadLink.href = dataURL;
+                downloadLink.download = 'webcam_capture.png';
+                downloadLink.style.display = 'block';
+            }, 3000); // 3000 milliseconds (3 seconds) delay
+        });
