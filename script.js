@@ -174,7 +174,6 @@ function swap(clicked) {
 
   if (shuffled) {
   if (checkHasWon()) {
-    showFanfare();
           alert("Winner!")
       }
   }
