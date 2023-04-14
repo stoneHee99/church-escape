@@ -205,3 +205,7 @@ newTile.setAttribute("back", currentTileText);
 newTile.classList.add("selected");
   highlighted = index;
 }
+
+function showFanfare() {
+  alert("success!");
+}
