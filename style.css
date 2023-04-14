@@ -250,4 +250,30 @@ button[back="15"] {
 
 .quiz4 {
   display: none;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: darkslategray;
+  flex-direction: column;
+}
+
+.quiz4__title {
+  color: white;
+  font-size: 76px;
+  font-weight: 900;
+  margin-bottom: 100px;
+}
+
+.quiz4__content {
+  color: white;
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+#video {
+  width: 100%;
+  max-width: 640px;
+  height: auto;
 }
