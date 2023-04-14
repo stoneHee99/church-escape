@@ -1,5 +1,9 @@
 @import url(style/reset.css);
 
+body {
+  background-color: darkslategray;
+}
+
 .quiz1 {
   display: flex;
   width: 100%;
