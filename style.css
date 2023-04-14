@@ -272,8 +272,33 @@ button[back="15"] {
   margin-bottom: 30px;
 }
 
+.quiz4__hint {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
 #video {
   width: 100%;
   max-width: 640px;
   height: auto;
+}
+
+#captureButton {
+  margin: 20px;
+  border-width: 0px;
+  border-radius: 20px;
+  background-color: #ff758c;
+  color: darkslategray;
+  font-size: 30px;
+  font-weight: 900;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#downloadLink {
+  font-size: 25px;
+  font-weight: 600;
+  color: #ff758c;
 }
