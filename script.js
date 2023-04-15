@@ -42,7 +42,7 @@ function checkPassword1() {
   const password1_3 = document.querySelector("#password1_3").value;
   const password1_4 = document.querySelector("#password1_4").value;
 
-  const desiredPassword = "0315";
+  const desiredPassword = "0314";
 
   if (
     password1_1 + password1_2 + password1_3 + password1_4 ===
