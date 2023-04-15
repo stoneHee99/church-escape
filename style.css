@@ -1,7 +1,8 @@
 @import url(style/reset.css);
 
 body {
-  background-color: darkslategray;
+  background-color: rgb(45, 42, 63);
+
 }
 
 .quiz1 {
@@ -10,7 +11,7 @@ body {
   height: 100vh;
   justify-content: center;
   align-items: center;
-  background-color: darkslategray;
+  background-color: rgb(45, 42, 63);
   flex-direction: column;
 }
 
@@ -60,7 +61,7 @@ body {
   height: 100vh;
   justify-content: center;
   align-items: center;
-  background-color: darkslategray;
+  background-color: rgb(45, 42, 63);
   flex-direction: column;
 }
 
@@ -139,7 +140,7 @@ body {
   height: 100vh;
   justify-content: center;
   align-items: center;
-  background-color: darkslategray;
+  background-color: rgb(45, 42, 63);
   flex-direction: column;
 }
 
@@ -254,7 +255,7 @@ button[back="15"] {
   height: 100vh;
   justify-content: center;
   align-items: center;
-  background-color: darkslategray;
+  background-color: rgb(45, 42, 63);
   flex-direction: column;
 }
 
@@ -279,6 +280,37 @@ button[back="15"] {
   margin-bottom: 20px;
 }
 
+.quiz5 {
+  display: none;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(45, 42, 63);
+  flex-direction: column;
+}
+
+.quiz5__title {
+  color: white;
+  font-size: 76px;
+  font-weight: 900;
+  margin-bottom: 100px;
+}
+
+.quiz5__content {
+  color: white;
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.quiz5__hint {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
 #video {
   width: 100%;
   max-width: 720px;
@@ -290,7 +322,19 @@ button[back="15"] {
   border-width: 0px;
   border-radius: 20px;
   background-color: #ff758c;
-  color: darkslategray;
+  color: rgb(45, 42, 63);
+  font-size: 30px;
+  font-weight: 900;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#nextButton {
+  margin: 20px;
+  border-width: 0px;
+  border-radius: 20px;
+  background-color: #ff758c;
+  color: rgb(45, 42, 63);
   font-size: 30px;
   font-weight: 900;
   padding: 10px 20px;
