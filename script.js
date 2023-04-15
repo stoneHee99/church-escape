@@ -241,3 +241,13 @@ newTile.classList.add("selected");
                 downloadLink.style.display = 'block';
             }, 3000); // 3000 milliseconds (3 seconds) delay
         });
+
+        const nextButton = document.getElementById('nextButton');
+
+        nextButton.addEventListener('click', function() {
+          const quiz4 = document.querySelector(".quiz4");
+          const quiz5 = document.querySelector(".quiz5");
+
+        quiz4.style.display = "none";
+        quiz5.style.display = "flex";
+        })
